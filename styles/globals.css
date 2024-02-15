@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'DNFBitBitv2';
+  src: url('//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-color: #15181d;
+  --area-color: #1c1f26;
+  --input-color: #2b313a;
+  --border-color: #464c56;
+  --darker-color: #8f8f98;
+  --normal-color: #cecece;
+  --bold-color: #eeeeee;
+}
+
+body {
+  color: #ffffff;
+  background: var(--background-color);
+}
+
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
+
+.circle {
+  background-color: #2b313a;
+  padding: 4px;
+  margin-left: 8px;
+  border-radius: 0.5rem;
+}
+
+.input {
+  background: var(--input-color);
+}
+.border {
+  border-color: var(--border-color);
+}
+.selected-btn {
+  background: var(--border-color);
+  color: var(--normal-color);
+}
+.selected {
+  background: var(--input-color);
+  border-radius: 0.5rem;
+}
+  

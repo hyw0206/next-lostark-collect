@@ -13,6 +13,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      PretendardRegular: ["Pretendard-Regular"],
+      DNFBitBitv2: ["DNFBitBitv2"],
+    },
   },
   plugins: [],
 }
