@@ -1,7 +1,8 @@
 export default function ProfilePage(props) {
+  console.log(props.query);
   return (
     props.query ? 
-    <div className="flex justify-between w-[1400px] font-PretendardRegular">
+    <div className="flex justify-between w-[1100px] font-PretendardRegular">
       <div className="flex flex-col">
         <div className="flex flex-row text-gray-200 text-xl">
           <div className="circle !ml-0">{props.query.ServerName == "" ? "알 수 없음" : props.query.ServerName}</div>
